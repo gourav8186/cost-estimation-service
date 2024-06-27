@@ -1,0 +1,125 @@
+@media only screen and (max-width: 991px) {
+    .toggleMenu {
+        display: block !important;
+    }
+
+    .sideHam {
+        max-width: 250px !important;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0%;
+        visibility: hidden;
+        z-index: 2 !important;
+        left: -100%;
+        transition: 0.3s ease-in-out;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        background-color: #dedddb !important;
+        box-shadow: -19px 0px 25px 26px rgb(0, 0, 0, 0.4);
+    }
+
+    .navShow {
+        left: 0 !important;
+        visibility: visible !important;
+    }
+
+    nav ul {
+        flex-direction: column !important;
+    }
+
+    nav ul>li {
+        color: #000000;
+        padding: 10px 0px;
+    }
+
+    .navLogo {
+        display: block !important;
+    }
+
+    .sideBg {
+        background-color: rgba(0, 0, 0, 0.3) !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        z-index: 1 !important;
+        transition: 0.5s;
+    }
+
+    .sidebgShow {
+        display: block !important;
+    }
+
+    .searchText input {
+        font-size: 30px !important;
+    }
+
+    .closeSearch img {
+        width: 20px !important;
+    }
+
+    .closeSearch {
+        top: 35px !important;
+    }
+
+    .spare_listBox h4 {
+        font-size: 12px !important;
+    }
+
+    .respFilterBtn {
+        display: table;
+        box-shadow: 3px 2px 26px -15px, inset 10px 10px 50px -4px rgba(155, 154, 154, 0.3);
+        border-radius: 7px;
+        padding: 1px 10px;
+        font-size: 16px;
+        margin: 5px 15px;
+    }
+
+    .filterPart {
+        display: none;
+    }
+    .bgImage{
+        height: 100dvh !important;
+        background: url(../image/slider_images/support-center-banner-wap_5d5ea3a.png) no-repeat center !important;
+    }
+    .locationBox>h2{
+        font-size: 38px !important;
+    }
+    .locationBox>p {
+        font-size: 16px !important;
+    }
+    .centerAddress>h5{
+        font-size: 16px !important;
+    }
+    .centerAddress>p{
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 586px) {
+    .modelDropdown {
+        width: 320px !important;
+    }
+
+    .modelDropdown p {
+        font-size: 16px !important;
+    }
+
+    .nav-tabs .nav-link {
+        width: 100px !important;
+    }
+
+    .seriesPart {
+        width: 100px !important;
+    }
+
+    .modelPart {
+        width: 250px !important;
+    }
+    .mainBox {
+        max-width: 100% !important;
+    }
+}

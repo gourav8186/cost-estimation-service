@@ -1,0 +1,743 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* background skyblue color  */
+.bgSky {
+    background-color: #2AAFE1 !important;
+    color: white !important;
+}
+
+#loading img {
+    visibility: hidden;
+}
+
+.container {
+    max-width: 1550px !important;
+}
+
+/* background dark color */
+.bg-dark {
+    color: white !important;
+    background-color: #3a4b57 !important;
+}
+
+/* font size short cut classes */
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
+.font42 {
+    font-size: 42px;
+}
+
+.cursor {
+    cursor: pointer !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.boxShadow {
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dNone {
+    display: none;
+}
+
+.dBlock {
+    display: block !important;
+}
+
+.boldText {
+    font-weight: bold !important;
+}
+
+tfoot {
+    background-color: #3a4b57;
+    color: white !important;
+}
+
+/* End short Classes  */
+
+/* Login forgot new password Page Css start from here */
+.logoHead img {
+    width: 180px;
+}
+
+.leftPart {
+    width: 35%;
+    height: 100vh;
+}
+
+.rightPart {
+    width: 65%;
+    background: url(../image/slider_images/slider1.jpg)center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.logForm input {
+    max-width: 400px;
+    min-width: 300px;
+    margin-top: 15px;
+}
+
+
+
+.subBtn:hover {
+    background-color: white !important;
+    color: #000 !important;
+    border: 1px solid black;
+}
+
+.logForm a {
+    color: #000 !important;
+}
+
+.form-control:focus,
+.btn:focus {
+    box-shadow: unset !important;
+    outline: none !important;
+}
+
+/* .detail h6{
+    white-space: normal;
+} */
+/* Login forgot new password Page Css End here  */
+
+/* Header Css Start From here  */
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.btn {
+    z-index: unset !important;
+}
+
+.logoLeft img {
+    width: 140px;
+}
+
+.notify img {
+    width: 30px;
+}
+
+.notify {
+    position: relative;
+}
+
+.hambar {
+    /* width: 150px; */
+    max-width: fit-content;
+    height: 100%;
+    background-color: #f9f9f9;
+    color: black;
+    position: relative;
+}
+
+.hambar img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.notiCount {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+}
+
+.menuBar {
+    width: 200px;
+    position: absolute;
+    list-style: none;
+    top: 70px;
+    left: -50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+    background-color: white;
+}
+
+.showMenu {
+    top: 66px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuBar li a {
+    width: 100%;
+    color: #3a4b57;
+    display: table;
+    padding: 10px 13px;
+    transition: 0.3s;
+    border-bottom: 1px solid #b7bcbf;
+}
+
+.menuBar li a:hover {
+    background-color: #3a4b57;
+    color: white !important;
+}
+
+.page-item.active .page-link {
+    color: white !important;
+    background-color: #3a4b57 !important;
+}
+
+.notifyBar {
+    width: 370px;
+    position: absolute;
+    left: -142px;
+    top: 60px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.showNotify {
+    top: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.notifyBar a {
+    color: white;
+    border-radius: 5px;
+    background-color: #3a4b57;
+}
+
+.notifyBar h5 {
+    background-color: #3a4b57;
+    padding: 10px 20px;
+}
+
+.profile img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.userDetails {
+    color: #3a4b57 !important;
+}
+
+.msgBar {
+    overflow-y: scroll;
+    max-height: 210px;
+}
+
+.msgBar::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.msgBar::-webkit-scrollbar-thumb {
+    background: #3a4b57 !important;
+    border-radius: 30px;
+}
+
+/* Header Section Css End Here  */
+/* Side Panel Css Start From Here  */
+.head-profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.nav-tab {
+    list-style: none;
+}
+
+.nav-tab .tab-links a {
+    width: 100%;
+    display: table;
+    font-size: 15px;
+    padding: 3px;
+    text-decoration: none;
+    position: relative;
+    color: #3a4b57;
+}
+
+.tab-links a i {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    transition: 0.4s;
+}
+
+.tab-links img {
+    width: 20px;
+    padding-bottom: 6px;
+}
+
+.megaNav {
+    /* list-style: none; */
+    padding-left: 80px;
+}
+
+.downArrow {
+    transform: rotate(90deg);
+}
+
+/* Side Panel Css End Here  */
+
+/* Dashboard Css Start From Here  */
+.dashBox a {
+    color: #3a4b57 !important;
+}
+
+/* Add Slider Page  */
+.brBox {
+    display: none;
+}
+
+.img-preview {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+    border-radius: 10px;
+    border: 2px dashed #3a4b57 !important;
+}
+
+.img-preview img {
+    width: 80px;
+}
+
+.subBtn {
+    min-width: 150px;
+    background-color: #3a4b57;
+    color: white;
+}
+
+.delBtn {
+    background-color: #3a4b57;
+    color: white;
+}
+
+/* View Table Css Start From Here  */
+.imgCol img {
+    width: 200px;
+}
+
+.actionBox {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.actionBox li {
+    /* display: inline-block; */
+    padding: 5px;
+}
+
+.actionBox li a {
+    color: #3a4b57 !important;
+}
+
+.actionBox li a span {
+    color: #fff !important;
+}
+
+.checkBox input:focus {
+    background-color: #3a4b57 !important;
+}
+
+table a,
+.page-link {
+    color: #3a4b57 !important;
+}
+
+.popBox {
+    background-color: #3a4b57;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.del {
+    width: 45px;
+    background-color: #3a4b57;
+    color: white;
+    border-radius: 5px;
+}
+
+table {
+    overflow-x: scroll !important;
+}
+
+thead tr th {
+    font-size: 14px;
+}
+
+tbody tr td {
+    font-size: 14px;
+}
+
+.bulk {
+    background-color: #3a4b57;
+    color: white;
+}
+
+.viewBtn a {
+    font-size: 13px;
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #3a4b57;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.actionBox select {
+    font-size: 14px !important;
+}
+
+.productImg img {
+    width: 100% !important;
+}
+
+.detailImg {
+    --bs-gutter-x: 0px !important;
+}
+
+.xzoom,
+.xactive,
+.xzoom-gallery {
+    border: unset !important;
+    box-shadow: unset !important;
+}
+
+.exPhoto {
+    /* width: 93px; */
+    object-fit: contain !important;
+}
+
+.product-details img {
+    width: 100%;
+}
+
+.optionBox {
+    min-width: 85px !important;
+}
+
+.rating {
+    list-style: none;
+}
+
+.rating li {
+    padding: 2px;
+    color: #FFD700 !important;
+}
+
+.subHead {
+    color: #3a4b57 !important;
+}
+
+.tableResponsive {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.viewLink {
+    color: #3a4b57 !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.faqBtn li {
+    margin: 0px 5px;
+    list-style: none;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.addonBox {
+    visibility: hidden;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: 0.6s;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.showPBox {
+    opacity: 1;
+    transition: 0.6s;
+    visibility: visible;
+}
+
+.pBox {
+    z-index: 2;
+    width: 650px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hideLogin {
+    position: absolute;
+    font-size: 20px;
+    right: 7%;
+    top: 8%;
+}
+
+.tableResponsive {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    overflow-x: auto !important;
+}
+
+/* pop up css  */
+.mainBg {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+
+.mainBox {
+    max-width: 30%;
+    min-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff !important;
+}
+
+.iconBox i {
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 990px) {
+
+    .headLogo {
+        display: none !important;
+    }
+
+    /* Login forgot new password  */
+    .rightPart {
+
+        display: none;
+    }
+
+    .leftPart {
+        width: 100% !important;
+        margin: auto;
+    }
+
+    /* End  */
+    /* hamburger for header responsive  */
+    .sideHam {
+        display: block !important;
+    }
+
+    .sideHam {
+        position: relative;
+    }
+
+    .sideHam div {
+        width: 35px;
+        height: 2.5px;
+        background-color: white;
+        margin: 8px;
+        transition: all ease-in 0.2s;
+    }
+
+    .openMenu {
+        padding: 5px 0px;
+    }
+
+    .openMenu .line1 {
+        position: absolute;
+        top: 5px;
+        transform: rotate(45deg);
+    }
+
+    .openMenu .line2 {
+        transform: rotate(-48deg);
+    }
+
+    .openMenu .line3 {
+        display: none;
+    }
+
+    /* Dashboard Css */
+    .dashBox {
+        border: none !important;
+    }
+
+    /* side panel responsive start from here  */
+    .sidePanel {
+        width: 320px !important;
+        position: absolute;
+        left: -100%;
+        /* z-index: 1; */
+        transition: 0.3s;
+        background-color: white !important;
+    }
+
+    .showSidepanel {
+        left: 10px;
+    }
+
+    .tableResponsive {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        overflow-x: scroll !important;
+    }
+
+    .actionBox select {
+        width: 70px !important;
+    }
+
+    .bottom {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .logoLeft img {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .popBox {
+        margin-bottom: 15px;
+        width: unset !important;
+    }
+}
+
+.dropify-wrapper .dropify-message span.file-icon {
+    font-size: 22px !important;
+}
+
+span.file-icon:before {
+    display: none !important;
+}
+
+.paginationHide {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Registration Popup  */
+
+.bgDarkside {
+    width: 100%;
+    height: 100dvh;
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.7s;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9;
+}
+.bgShow{
+    visibility: visible;
+    opacity: 1;
+}
+.mainBox {
+    max-width: 500px;
+    min-width: 450px;
+    padding: 40px 20px;
+}
+
+.inputgroup {
+    margin: 15px 0px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    right: 20px;
+    font-size: 20px;
+}
+
+.delBtn{
+    background-color: #3a4b57;
+    color: white;
+    font-size: 14px;
+}
